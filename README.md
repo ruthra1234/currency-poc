@@ -1,5 +1,11 @@
 # Custom currency converter
 
+## Features
+
+- [React](https://facebook.github.io/react) 
+- [ES6](http://es6-features.org) (with [babel](https://babeljs.io))
+-  Redux
+
 
 #### - Development setup
 
