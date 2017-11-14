@@ -83,6 +83,12 @@ function CurrencyInputGroup({ currencies, currencyType, currencyValue,
   onCurrencyTypeChange, onCurrencyValueChange }: ICurrencyInputGroup) {
   return (
     <div className="c-input-group">
+          <div className="o-field">
+          <CurrencyInput
+            value={currencyValue}
+            onChange={onCurrencyValueChange}
+          />
+        </div>
       <div className="o-field o-field--fixed" style={{ width: '90px' }}>
         <CurrencySelect
           currencies={currencies}
@@ -90,12 +96,7 @@ function CurrencyInputGroup({ currencies, currencyType, currencyValue,
           onChange={onCurrencyTypeChange}
         />
       </div>
-      <div className="o-field">
-        <CurrencyInput
-          value={currencyValue}
-          onChange={onCurrencyValueChange}
-        />
-      </div>
+     
     </div>
   );
 }
