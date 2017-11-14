@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <title>Homedepot Currency converter</title>
+  <link href="/assets/custom.min.css" rel="stylesheet"> 
+</head>
+
+<body>
+  <div id="app-container">
+    </div>
+ 
+  <script src="/jspm_packages/system.js"></script>
+  <script src="/jspm.config.js"></script>
+ 
+  <script>
+    // hot-reload config
+    SystemJS.import('systemjs-hot-reloader').then(function(HotReloader) {
+      // if you're running server on custom port please remember to update below
+      new HotReloader.default('http://localhost:8085/');
+    });
+    // load main module of your app with SystemJS
+    SystemJS.trace = true;
+    SystemJS.import('/src/app');
+  </script>
+  <!-- loading-app:end -->
+</body>
+
+</html>
