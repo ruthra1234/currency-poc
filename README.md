@@ -9,7 +9,9 @@
 
 3.`npm install`
 
-4.`npm run dev` - start local dev server with hot-reload and open browser
+4.`jspm install`
+
+5.`npm run dev` - start local dev server with hot-reload and open browser
 
 
 
