@@ -11,7 +11,7 @@
 
 1.`Download and install NPM Package manager and Git `
 
-2.`git clone https://github.com/ruthra1234/custom-currency.git`
+2.`git clone https://github.com/ruthra1234/currency-poc.git`
 
 3.`npm install`
 
